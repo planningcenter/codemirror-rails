@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir.glob('{doc,lib,vendor}/**/*') + %w[LICENSE README.md]
 
-  s.add_runtime_dependency 'railties', '>= 3.0', '< 8.0'
+  s.add_runtime_dependency 'railties', '>= 3.0', '< 9.0'
 
   s.add_development_dependency 'minitest'
   s.add_development_dependency 'rails'
